@@ -1,5 +1,7 @@
 <main class="center" id="main">
 
+  <pb-breadcrumbs></pb-breadcrumbs>
+
   <div class="page-area">
 
       <pb-article ngSkipHydration>
@@ -60,11 +62,19 @@
       </pb-article>
 
       <pb-article ngSkipHydration>
-          <h1>Chart</h1>
+          <h1> Budget Chart</h1>
           <div>
               <canvas id="myChart"></canvas>
           </div>
       </pb-article>
+
+      <pb-article ngSkipHydration>
+        <h1>Annual Income from Stock Investments</h1>
+        <div>
+          <div id="incomeChart" height="500" width="600"></div>
+        </div>
+    </pb-article>
+
 
   </div>
 
